@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "my_instance" {
-  ami           = "ami-034dbe27bdae2ef6c"  # Replace with your actual AMI ID
+  ami           = "ami-0e8098706acd2f887"  # Replace with your actual AMI ID
   instance_type = "t2.xlarge"
   key_name      = "newTest"               # Make sure this key pair exists in your AWS account
 
